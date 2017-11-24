@@ -1,0 +1,48 @@
+{
+  "name": "weex-demo",
+  "description": "weex-demo",
+  "version": "0.1.0",
+  "private": true,
+  "main": "index.js",
+  "keywords": [
+    "weex",
+    "vue"
+  ],
+  "scripts": {
+    "build": "webpack",
+    "copy": "copy dist\\sign.weex.js android\\app\\src\\main\\assets",
+    "dev": "webpack --watch",
+    "serve": "webpack && node build/init.js && serve -p 8080",
+    "only": "node build/init.js && serve -p 8080",
+    "debug": "weex-devtool"
+  },
+  "dependencies": {
+    "vue": "^2.1.8",
+    "vue-router": "^2.6.0",
+    "vuex": "^2.1.1",
+    "vuex-router-sync": "^4.0.1",
+    "weex-vue-render": "^0.11.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.20.0",
+    "babel-eslint": "^7.2.3",
+    "babel-loader": "^6.2.9",
+    "babel-preset-es2015": "^6.18.0",
+    "css-loader": "^0.26.1",
+    "eslint": "^3.14.1",
+    "eslint-friendly-formatter": "^2.0.7",
+    "eslint-loader": "^1.6.1",
+    "eslint-plugin-html": "^2.0.0",
+    "eslint-config-standard": "^6.2.1",
+    "eslint-plugin-promise": "^3.4.0",
+    "eslint-plugin-standard": "^2.0.1",
+    "ip": "^1.1.4",
+    "serve": "^1.4.0",
+    "vue-loader": "^10.0.2",
+    "vue-template-compiler": "^2.1.8",
+    "webpack": "^1.14.0",
+    "weex-devtool": "^0.2.64",
+    "weex-loader": "^0.4.1",
+    "weex-vue-loader": "^0.2.5"
+  }
+}
