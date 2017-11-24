@@ -1,6 +1,6 @@
 # MobileNurseWeex
 
-weex构建的移动护理APP项目，
+weex构建的移动护理APP项目，由于项目安全需要删除了后端接口地址。
 
 ## getting start
 
@@ -9,6 +9,14 @@ weex构建的移动护理APP项目，
 ```bash
 npm install
 ```
+
+webpack打包并启动服务器
+
+```bash
+npm run serve
+```
+
+使用 `Android Studio` 打开 `android` 目录来安装APP，配置 `RenderPageUrl` 参数获取目标 weex 文件。
 
 ## 文件结构
 
@@ -43,6 +51,7 @@ npm run debug
 
 * [node.js](https://nodejs.org/en/)
 * [Visual Studio Code](https://code.visualstudio.com/)
+* [Android Studio](https://developer.android.com/studio/preview/index.html)
 
 ## 参考资料
 
