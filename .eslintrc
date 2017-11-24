@@ -1,0 +1,22 @@
+{
+    "root": true,
+    "parser": "babel-eslint",
+    "parserOptions": {
+        "sourceType": "module"
+    },
+    "globals": {
+        "Vue": false
+    },
+    "extends": "standard",
+    "plugins": [
+        "html"
+    ],
+    "rules": {
+        "arrow-parens": 0,
+        "generator-star-spacing": 0,
+        "space-before-function-paren": 0,
+        "no-undef": 0,
+        "eol-last": 0,
+        "no-eval": 0
+    }
+}
